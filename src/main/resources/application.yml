@@ -1,0 +1,10 @@
+server:
+  port: 9610
+
+spring:
+  application:
+    name: notify
+
+swagger:
+  api:
+    description: 消息通知服务
