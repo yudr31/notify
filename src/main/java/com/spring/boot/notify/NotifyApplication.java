@@ -11,7 +11,7 @@ import tk.mybatis.spring.annotation.MapperScan;
  */
 @EnableEurekaClient
 @SpringBootApplication(scanBasePackages = "com.spring.boot")
-@MapperScan("com.spring.boot.notify.mapper")
+@MapperScan("com.spring.boot.notify")
 public class NotifyApplication {
 
     public static void main(String[] args) {
