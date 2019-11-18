@@ -3,6 +3,7 @@ package com.spring.boot.notify;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import tk.mybatis.spring.annotation.MapperScan;
 
 /**
  * @author yuderen
@@ -10,6 +11,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
  */
 @EnableEurekaClient
 @SpringBootApplication(scanBasePackages = "com.spring.boot")
+@MapperScan("com.spring.boot.sports.mapper")
 public class NotifyApplication {
 
     public static void main(String[] args) {
