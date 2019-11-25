@@ -7,4 +7,4 @@ WORKDIR /home
 
 EXPOSE 9610
 
-CMD ["java", "-jar", "-Dspring.profiles.active=dev", "notify.jar"]
+CMD ["java", "-jar", "notify.jar"]
